@@ -1,0 +1,881 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  /* width: 100vw; */
+  height: 10vh;
+  text-align: center;
+  background-color: blue;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.693);
+}
+
+.logo1 img {
+  margin-top: 2vh;
+  position: absolute;
+  z-index: 2;
+  width: 8vw;
+}
+
+.nav-list {
+  width: 93vw;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list ul {
+  margin-left: 12vw;
+  word-spacing: 3vw;
+  color: white;
+}
+
+.nav-list ul li {
+  list-style: none;
+  display: inline;
+}
+
+.nav-list ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.profile img {
+  background-color: white;
+  border-radius: 9vw;
+  width: 3vw;
+  /* margin-left: 47vw; */
+}
+
+.dua-pemain img {
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 89.5vh;
+}
+
+.carousel-inner img {
+  height: 90vh;
+}
+
+.match {
+  width: 90vw;
+  margin: 5vh auto 7vh;
+  border-radius: 20px;
+  background-color: blue;
+}
+
+.match h1 {
+  padding: 3vh 0 0 3vw;
+  font-size: 2vw;
+  color: white;
+}
+
+.team {
+  width: 30vw;
+  display: flex;
+  margin: auto;
+  padding: 3vh 0;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.mt {
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-bottom: 7vh;
+}
+
+.team-satu img {
+  width: 7vw;
+}
+
+.team-dua img {
+  width: 7vw;
+}
+
+.berita {
+  color: white;
+  background-color: blue;
+  padding-bottom: 11vh;
+}
+
+#title {
+  padding: 9vh 0 6vh 4.5vw;
+}
+
+.berita-terbaru {
+  width: 90vw;
+  height: 60vh;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-image: url(2.jpg);
+  border-radius: 20px;
+  border: 1px solid blue;
+}
+
+.berita-terbaru h2 {
+  width: 35vw;
+  margin-top: 38vh;
+  margin-left: 2.5vw;
+}
+
+.berita-terbaru p {
+  width: 35vw;
+  margin-left: 2.5vw;
+}
+
+/* Bagian Dua */
+
+.bgatas {
+  width: 90vw;
+  display: flex;
+  margin: auto;
+  text-align: justify;
+  padding-top: 11vh;
+  padding-bottom: 15vh;
+}
+
+.gbr-kiri img {
+  width: 39vw;
+  border-radius: 30px;
+}
+
+.text-atas {
+  padding: 0 0 0 2vw;
+}
+
+.text-atas h1 {
+  width: 28vw;
+  font-size: 2vw;
+  font-weight: bolder;
+}
+
+.text-atas p {
+  font-weight: 500;
+  font-size: 1.2vw;
+}
+
+/* BAGIAN 3 */
+
+.warna-cj {
+  background-color: rgb(38, 38, 220);
+}
+
+.container-jadwal {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  padding-bottom: 10vh;
+  color: white;
+}
+
+.jadwal1 {
+  width: 45%;
+  margin: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: blue;
+}
+
+.jadwal2 {
+  width: 45%;
+  margin: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: blue;
+}
+
+.jadwal h1 {
+  width: 40vw;
+  font-size: 3;
+  text-align: center;
+  color: white;
+  padding: 8vh 0 10vh 0;
+  margin: auto;
+}
+
+#gbr {
+  padding-right: 4vw;
+}
+
+#gbr img {
+  border-radius: 20px;
+  width: 2.4vw;
+  padding: 1vh 0.3vw;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.team1 img {
+  width: 9vw;
+}
+
+.team2 img {
+  width: 9vw;
+}
+
+.tgl {
+  width: 40vw;
+  margin: auto;
+  padding-top: 4vh;
+  justify-content: space-between;
+  display: flex;
+}
+
+.tgl h6 {
+  font-size: 1.7vw;
+  padding-left: 5vw;
+  align-self: center;
+}
+
+.tgh {
+  width: 30vw;
+  display: flex;
+  padding-top: 4vh;
+  margin: auto;
+  justify-content: space-between;
+}
+
+#vs {
+  font-size: 2vw;
+  align-self: flex-end;
+}
+
+#ft {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+  width: 30vw;
+  margin: auto;
+  padding-top: 3vh;
+  padding-bottom: 7vh;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#ft h1 {
+  font-size: 2vw;
+}
+
+.lokasi {
+  text-align: center;
+  margin: auto;
+}
+
+.lokasi h1 {
+  font-size: 2vw;
+  font-weight: bolder;
+}
+
+.lokasi p {
+  font-weight: bolder;
+}
+
+/* BAGIAN 4 */
+
+.judul1 {
+  width: 30vw;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.judul1 h5 {
+  font-weight: bold;
+}
+
+.judul1 h6 {
+  font-size: 1.5vw;
+  opacity: 0.8;
+}
+
+.judul2 {
+  padding-left: 4vw;
+}
+
+.judul2 h1 {
+  width: 55vw;
+}
+
+.bg4-tengah {
+  width: 90vw;
+  text-align: justify;
+  margin: auto;
+}
+
+.hero img {
+  width: 90vw;
+}
+
+/* BAGIAN 5 */
+
+.bg5-judul h1 {
+  padding: 5vh 0 5vh 5vw;
+}
+
+.bg5-jadwal {
+  width: 90%;
+  margin: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: blue;
+}
+
+.bg5-jadwal h1 {
+  color: white;
+}
+
+.bg5-tgl {
+  width: 85vw;
+  margin: auto;
+  padding-top: 4vh;
+  justify-content: end;
+  display: flex;
+  color: white;
+}
+
+.bg5-tgl h6 {
+  font-size: 1.7vw;
+  padding-left: 5vw;
+  align-self: center;
+}
+
+.bg5-lokasi h1 {
+  font-size: 3vw;
+  font-weight: bolder;
+}
+
+.bg5-lokasi p {
+  font-size: 1.5vw;
+  font-weight: bolder;
+}
+
+.bg5-lokasi {
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+.bg5-tgh {
+  width: 55vw;
+  display: flex;
+  padding-top: 4vh;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+#bg5-vs {
+  font-size: 4vw;
+  color: white;
+  align-self: center;
+}
+
+#bg5-ft {
+  width: 43vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+  margin: auto;
+  padding-top: 3vh;
+  padding-bottom: 7vh;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#bg5-ft h1 {
+  font-size: 4vw;
+}
+
+#bg5-gbr {
+  padding-right: 4vw;
+}
+
+#bg5-gbr img {
+  border-radius: 20px;
+  width: 2.4vw;
+  padding: 1vh 0.3vw;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.bg5-team1 img {
+  width: 15vw;
+}
+
+.bg5-team2 img {
+  width: 15vw;
+}
+
+.stats-bgc-5 {
+  background-color: blue;
+}
+
+.bg5-judul2 h1 {
+  width: 49vw;
+  font-size: 5vw;
+  color: white;
+  padding-top: 11vh;
+  margin: auto;
+}
+
+.bg5-stats {
+  display: flex;
+  padding-top: 15vh;
+  justify-content: space-evenly;
+}
+
+.kiri {
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  padding-bottom: 2vh;
+}
+
+.tengah {
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding-bottom: 2vh;
+}
+
+.kanan {
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: right;
+  color: white;
+  padding-bottom: 2vh;
+}
+
+.pemain {
+  display: grid;
+  grid-template-areas:
+    'pemain1 pemain2 pemain3'
+    'pemain4 pemain5 pemain6';
+  grid-template-columns: 25vw 25vw 25vw;
+  justify-content: space-evenly;
+  gap: 10vh 0;
+  margin: auto;
+  padding-bottom: 10vh;
+}
+
+.card-pemain {
+  width: 25vw;
+  text-align: center;
+  border-radius: 40px;
+  border: 1px solid blue;
+}
+
+.pemain-pengganti {
+  display: grid;
+  grid-template-areas:
+    'pemain1'
+    'pemain2'
+    'pemain3';
+  grid-template-columns: 25vw 25vw 25vw;
+  justify-content: space-evenly;
+  gap: 10vh 0;
+  margin: auto;
+  padding-bottom: 10vh;
+}
+
+.card-pemain-pengganti {
+  width: 25vw;
+  text-align: center;
+  border-radius: 40px;
+  border: 1px solid blue;
+}
+
+.inti h1 {
+  padding: 9vh 0 7vh 0;
+  text-align: center;
+}
+
+.gambar-pemain {
+  margin: auto;
+}
+
+.gambar-pemain img {
+  width: 20vw;
+  padding: 5vh 0 5vh 0;
+}
+
+.team-pemain h2 {
+  padding-top: 5vh;
+  font-size: 2vw;
+}
+
+.team-pemain p {
+  color: blue;
+  font-size: 4vw;
+}
+
+.role-pemain p {
+  width: 12vw;
+  padding: 1vh 0.2vw;
+  border-radius: 20px;
+  margin: auto;
+  color: white;
+  background-color: blue;
+  border: 1px solid blue;
+}
+
+.pengganti h1 {
+  padding: 9vh 0 7vh 0;
+  text-align: center;
+}
+
+/* RESPONSIVE MOBILE */
+
+@media (max-width: 500px) {
+  .logo1 img {
+    margin-top: 1vh;
+    margin-left: 4vw;
+    width: 9vw;
+  }
+
+  .profile img {
+    width: 6vw;
+    margin-right: 2vw;
+    margin-bottom: 1vh;
+  }
+
+  .nav-list ul {
+    margin-top: 1vh;
+    margin-left: 9.5vw;
+  }
+
+  .match h1 {
+    padding: 3vh 0 0 3vw;
+    font-size: 4vw;
+    color: white;
+  }
+
+  .team {
+    width: 50vw;
+  }
+
+  .team-satu img {
+    width: 17vw;
+  }
+
+  .team-dua img {
+    width: 17vw;
+  }
+
+  #title {
+    padding: 7vh 0 7vh;
+    text-align: center;
+  }
+
+  .berita-terbaru {
+    width: 90vw;
+    height: 45vh;
+    background-size: cover;
+    background-position-x: center;
+    border-radius: 30px;
+  }
+
+  .berita-terbaru h2 {
+    width: 35vw;
+    font-size: 3vw;
+    margin-top: 26vh;
+    margin-left: 5vw;
+  }
+
+  .berita-terbaru p {
+    width: 35vw;
+    margin-left: 5vw;
+  }
+
+  /* Bagian Dua */
+
+  .bgatas {
+    width: 90vw;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row-reverse;
+    text-align: justify;
+    padding-top: 11vh;
+  }
+
+  .gbr-kiri img {
+    width: 39vw;
+    height: 31vh;
+    border-radius: 30px;
+  }
+
+  .text-atas {
+    padding-right: 2vw;
+  }
+
+  .text-atas h1 {
+    width: 48vw;
+    font-size: 3.5vw;
+    font-weight: bolder;
+  }
+
+  .text-atas p {
+    font-size: 2.9vw;
+    font-weight: 500;
+  }
+
+  /* BAGIAN 3 */
+
+  .container-jadwal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .jadwal1 {
+    width: 80%;
+  }
+
+  .jadwal2 {
+    width: 80%;
+  }
+
+  .jadwal2 {
+    margin-top: 9vh;
+  }
+
+  .jadwal h1 {
+    width: 60vw;
+    font-size: 5vw;
+  }
+
+  #gbr {
+    padding-right: 0;
+  }
+
+  #gbr img {
+    border-radius: 20px;
+    width: 4.4vw;
+    padding: 1vh 0.3vw;
+    background-color: white;
+    opacity: 0.8;
+  }
+
+  .team1 img,
+  .team2 img {
+    width: 24vw;
+  }
+
+  .tgl {
+    width: 65vw;
+    padding-top: 4vh;
+  }
+
+  .tgl h6 {
+    font-size: 3.7vw;
+    padding-left: 0;
+  }
+
+  .tgh {
+    width: 60vw;
+  }
+
+  #vs {
+    font-size: 7vw;
+    align-self: flex-end;
+  }
+
+  #ft {
+    justify-content: space-between;
+    width: 40vw;
+    margin: auto;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+  }
+
+  #ft h1 {
+    font-size: 5vw;
+  }
+
+  .lokasi h1 {
+    font-size: 4vw;
+    font-weight: bolder;
+  }
+
+  .lokasi p {
+    font-weight: bolder;
+  }
+
+  /* BAGIAN 4 */
+
+  .judul1 {
+    width: 91vw;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .judul1 h6 {
+    font-size: 4.5vw;
+    opacity: 0.8;
+  }
+
+  .judul2 {
+    padding-left: 4.5vw;
+  }
+
+  .judul2 h1 {
+    font-size: 7vw;
+    width: 90vw;
+  }
+
+  .bg4-tengah {
+    width: 90vw;
+    text-align: justify;
+    margin: auto;
+  }
+
+  .hero img {
+    width: 90vw;
+  }
+
+  /* BAGIAN 5 */
+
+  #bg5-gbr img {
+    width: 9vw;
+  }
+
+  .bg5-tgh {
+    width: 90vw;
+  }
+
+  .bg5-team1 img {
+    width: 32vw;
+  }
+
+  .bg5-team2 img {
+    width: 32vw;
+  }
+
+  #bg5-vs {
+    font-size: 9vw;
+  }
+
+  #bg5-ft {
+    width: 72.5vw;
+  }
+
+  #bg5-ft h1 {
+    font-size: 9vw;
+  }
+
+  .bg5-lokasi h1 {
+    font-size: 5.5vw;
+  }
+  .bg5-lokasi p {
+    font-size: 4.5vw;
+  }
+
+  .bg5-judul2 h1 {
+    width: 77vw;
+    font-size: 8vw;
+    color: white;
+    padding-top: 11vh;
+    margin: auto;
+  }
+  .kiri {
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+  }
+
+  .tengah {
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
+
+  .kanan {
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: right;
+    color: white;
+  }
+
+  .pemain {
+    display: grid;
+    grid-template-areas:
+      'pemain1 pemain2'
+      'pemain3 pemain4'
+      'pemain5 pemain6';
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .pemain-pengganti {
+    display: grid;
+    grid-template-areas:
+      'pemain1 pemain2'
+      'pemain3';
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .card-pemain {
+    width: 35vw;
+  }
+
+  .card-pemain-pengganti {
+    width: 65vw;
+    background-color: rgba(0, 52, 209, 0.693);
+  }
+
+  .inti h1 {
+    padding: 9vh 0 7vh 0;
+    text-align: center;
+  }
+
+  .gambar-pemain {
+    margin: auto;
+  }
+
+  .gambar-pemain img {
+    width: 35vw;
+    padding: 5vh 0 5vh 0;
+  }
+
+  .team-pemain h2 {
+    padding-top: 5vh;
+    font-size: 6vw;
+  }
+
+  .team-pemain p {
+    color: blue;
+    font-size: 8vw;
+  }
+
+  .role-pemain p {
+    width: 31vw;
+    padding: 1vh 0.2vw;
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+  }
+
+  .pengganti h1 {
+    padding: 9vh 0 7vh 0;
+    text-align: center;
+  }
+}
